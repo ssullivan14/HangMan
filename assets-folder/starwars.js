@@ -32,18 +32,14 @@ window.onload = function() {
             }
             answer.innerHTML += answerArray[i];
         }
-        if (answer.innerHTML === word) {
+        
+         if (answer.innerHTML === word) {
             winCounter++;
             console.log (winCounter)
             winning.innerHTML = "Wins:" + winCounter;
-        } 
-        else {
-            guessesRemaining.innerHTML = "Guesses Remaining:" + guesses--;
-
-            if (guessesRemaining.innerHTML === 0) {
-                
-            }
-        }
+           
+        }  
+        
 
         
         console.log(answerArray[i]);

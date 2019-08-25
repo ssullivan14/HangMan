@@ -1,3 +1,25 @@
 body {
-    background-image: ("assets-folder/images/vader.jpg");
+    background-color: #3a4e7a;
+}
+
+h1 {
+    font-family: 'STARWARS';
+    text-align: center;
+    font-size: 50pt;
+}
+
+#start {
+    text-align: center;
+}
+
+span {
+    text-align: center;
+}
+
+.p {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
 }

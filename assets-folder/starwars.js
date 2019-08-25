@@ -36,15 +36,17 @@ window.onload = function() {
          if (answer.innerHTML === word) {
             winCounter++;
             console.log (winCounter)
-            winning.innerHTML = "Wins:" + winCounter;
-           
-        }  
-        
-
-        
+            winning.innerHTML = "Wins:" + winCounter;  
+            }   
+        else {
+            answer.innerHTML === 12;
+            remaining
+        }
         console.log(answerArray[i]);
+        };
+        
     } 
-} 
+
 
 //What is a win
 

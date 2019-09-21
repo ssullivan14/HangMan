@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>StarWars Hangman</title>
+    <link rel="reset stylesheet" type="text/css" href="assets-folder/css/reset.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets-folder/css/stylesheet.css">
+    
+</head>
+    <body>
+               <!-- Just an image -->
+        <div class="jumbotron">
+                <h1 class="display-4">StarWars HangMan</h1>
+                <p id= "jumbo-paragraph"> Can you guess the correct StarWars word?</p>
+                <hr class="my-4">
+                <a class="startButton btn-primary btn-lg" href="#" role="button">Click Here to Start</a>
+        </div>
+
+        <div id="main-container">
+                <div id="row">
+                <div id="col-left">
+                    
+        </div>           
+                
+                <div id="col-right">
+                    
+                    <h1></h1>
+                    <p id="start"> </p>                    
+
+                    <span id="answer"> 
+                       
+                    </span>
+                    <br>
+                    <br>
+                    <p> Letters Guessed: <span id= "lettersGuessed">0</span></p>
+                    <p> Guesses Remaining: <span id= "guesses-remaining">12</span></p>
+                    <p> Wins: <span id="wins">0</span></p> 
+                </div>
+             </div>
+            </div>
+         <!-- Footer -->
+         
+            <footer class="footer text-muted">
+                <div class="container-fluid p-3 p-md-3">
+                    <a class="navbar-footer" img src="/assets-folder/images/StarWarsOpeningQuote-300x169.png">Copywrite © Sara Sullivan</a>
+                </div>
+            </footer>
+        
+        
+
+            <script type="text/javascript" src="assets-folder/starwars.js"></script>
+    
+    
+    </body>
+</html>

@@ -2,7 +2,9 @@ body {
     background-color: #3a4e7a;
 }
 
-
+#main-container {
+    text-align: center
+}
 
 
 h1 {
@@ -15,9 +17,7 @@ h1 {
     text-align: center;
 }
 
-span {
-    text-align: center;
-}
+
 
 #jumbo-paragraph {
     text-align: center;
